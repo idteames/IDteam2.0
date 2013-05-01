@@ -1,0 +1,155 @@
+    /* CUSTOMIZE THE CAROUSEL
+    -------------------------------------------------- */
+
+    /* Carousel base class */
+    .carousel {
+      background:url('../img/background1.jpg');
+      background-attachment:fixed; 
+      background-repeat:no-repeat;
+    }
+
+    .carousel .container {
+      position: relative;
+      z-index: 9;
+    }
+
+    .carousel-control {
+      height: 80px;
+      margin-top: 0.4em;
+      font-size: 120px;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      background-color: transparent;
+      border: 0;
+      z-index: 10;
+    }
+
+    .carousel .item {
+      height: 500px;
+    }
+    .carousel img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 500px;
+    }
+
+     .carousel #min img {
+      min-width: 20%;
+      height: auto;
+    }
+
+    .carousel-caption {
+      background-color: transparent;
+      position: static;
+      max-width: 550px;
+      padding: 0 20px;
+      margin-top: 200px;
+    }
+    .carousel-caption h1,
+    .carousel-caption .lead {
+      margin: 0;
+      line-height: 1.25;
+      color: #fff;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    }
+    .carousel-caption .btn {
+      margin-top: 10px;
+    }
+
+
+
+/* NAVEGADOR
+-------------------------------------------------- */
+.navegator {padding-left:10%;padding-right:10%;}
+.navbar-inner {padding:0.5em;}
+.navbar .brand {color:#fff;}
+
+/* HEADER
+-------------------------------------------------- */
+
+.carousel-caption h1{color:#EEE;}
+.carousel-caption .lead{color:#CCC;}
+
+#principal h1{color:#FFF;margin-top:1.5em;text-align: center;font-size: 7em;margin-bottom: 0.1em;
+  letter-spacing:-2px;line-height:1;}
+#principal h2{color:#EEE;text-align: center;font-size:40px;font-weight:200;;padding:0 10%;margin-bottom: 0.6em;}
+#principal a{padding:0.5em 2.5em;margin: 0.3em;font-size: 1.5em;}
+
+#imagen-header{padding-top:10%;}
+#imagen-header img{
+              position: absolute;
+              top: auto;
+              left: auto;
+              min-width: auto;
+              height: auto;
+              display: inline-block;
+              line-height: auto;
+}
+
+/* TABLE
+-------------------------------------------------- */
+
+#tabla{margin-top:6em;}
+
+/* BLOQUES | CONTAINER
+-------------------------------------------------- */
+
+#redes-sociales{background:#EEE;height: 40px;margin-top:-2em;padding-top: 20px }
+
+#bloque1{margin-bottom:3em;}
+#bloque1 h2{color:#3875B6;}
+#bloque2{
+      background:url('../img/background1.jpg') bottom;
+      background-attachment:fixed; 
+      background-repeat:no-repeat;
+      padding:3% 5%;color:#FFF;}
+#bloque3{background:#131313;color:#FFF;padding:3% 5%;}
+
+#tabla{margin-top:6em;}
+
+#packs{color:#042D4D;padding-bottom: 1em;}
+#portafolio{color:#BBB;padding-top:1em;}
+
+#portafolios_page{margin-top:4em;}
+
+#circle{margin:2em 20%;}
+#circle img{border-radius: 200px;border:3px solid #EEE;}
+
+
+/* CONTACTO
+-------------------------------------------------- */
+
+#contacto{margin-top:10%;margin-bottom:10%; }
+#contacto label{color:#666;margin-bottom: 1em; }
+#contacto input{width: 100%;}
+#contacto textarea{width: 100%;}
+#contacto select{width: 102.5%;margin-bottom: 1em;}
+
+
+/* FORMULARIO INDEX
+-------------------------------------------------- */
+
+#form_contacto{width: 100%;margin:0.3em 3em 0 0;}
+#form_contacto_boton{margin-top:1em;float:right; }
+#formu{margin-top:1em;height: 270px;}
+
+
+/* FOOTER
+-------------------------------------------------- */
+
+#footer{bottom: 0%;}
+#footer a{color:#CCC; }
+
+/* Trucos
+-------------------------------------------------- */
+#topsep {
+  margin-top: 4%;
+}
+
+#imgesquina {
+display:scroll;
+position:fixed;
+bottom:10px;
+right:10px;
+}
